@@ -4,7 +4,7 @@
   "description": "Dogscape - экшен игра написанная на JavaScript с использованием canvas graphics.",
   "main": "index.js",
   "scripts": {
-    "lint:fix": "eslint --fix",
+    "lint:fix": "eslint --fix .",
     "prettier:fix": "prettier --write ."
   },
   "devDependencies": {

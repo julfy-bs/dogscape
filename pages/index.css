@@ -1,8 +1,8 @@
 /* fonts */
-@import "../vendor/fonts/fonts.css";
+@import '../vendor/fonts/fonts.css';
 
 /* variables */
-@import "../vendor/variables.css";
+@import '../vendor/variables.css';
 
 /* page */
-@import "../blocks/page/page.css";
+@import '../blocks/page/page.css';
