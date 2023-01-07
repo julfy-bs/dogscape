@@ -1,0 +1,27 @@
+{
+  "name": "dogscape",
+  "version": "1.0.0",
+  "description": "Dogscape - экшен игра написанная на JavaScript с использованием canvas graphics.",
+  "main": "index.js",
+  "scripts": {
+    "lint:fix": "eslint --fix",
+    "prettier:fix": "prettier --write ."
+  },
+  "devDependencies": {
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/julfy-bs/dogscape.git"
+  },
+  "author": "Bogdan Sutuzhko <julfy-bs@yandex.ru>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/julfy-bs/dogscape/issues"
+  },
+  "homepage": "https://github.com/julfy-bs/dogscape#readme"
+}
