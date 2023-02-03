@@ -1,8 +1,8 @@
 import State from './State.js';
 
 const playerModel = {
-  height: 150,
-  width: 150,
+  height: 480,
+  width: 480,
   scale: 1,
 };
 
@@ -13,6 +13,8 @@ export default class Player {
     this.scale = playerModel.scale;
     this.width = playerModel.width;
     this.height = playerModel.height;
+    // this.hitBoxX = this.width / 6;
+    // this.hitBoxY = this.height / 6;
     // this.x = this.gameWidth - this.width * this.scale;
     this.x = 0;
     this.y = this.gameHeight - this.height * this.scale;
@@ -23,6 +25,7 @@ export default class Player {
 
   draw(context) {
     this.currentState.draw(context, this.x, this.y);
+
   }
 
   update() {
